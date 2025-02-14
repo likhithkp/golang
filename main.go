@@ -2,10 +2,8 @@ package main
 
 import "fmt"
 
-const name = "Likhtih"
-
 func main() {
-	const age int = 24
-	fmt.Println(name)
-	fmt.Println(age)
+	nums := []int{1, 2, 3}
+	nums = append(nums, 4, 5)
+	fmt.Println(nums)
 }
