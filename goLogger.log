@@ -1,0 +1,4 @@
+[GIN-debug] GET    /                         --> main.greet (3 handlers)
+[GIN-debug] GET    /query/ginQuery           --> main.ginQuery (3 handlers)
+[GIN-debug] GET    /url/ginUrl/:name/:age    --> main.ginUrl (4 handlers)
+[GIN-debug] POST   /posy/ginPost             --> main.ginPost (3 handlers)
